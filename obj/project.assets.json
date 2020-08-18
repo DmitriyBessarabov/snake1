@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Irene\\OneDrive\\Рабочий стол\\snake\\Snake\\Snake.csproj",
+      "projectUniqueName": "C:\\Users\\Irene\\OneDrive\\Рабочий стол\\snake\\Snake\\snake1\\Snake.csproj",
       "projectName": "Snake",
-      "projectPath": "C:\\Users\\Irene\\OneDrive\\Рабочий стол\\snake\\Snake\\Snake.csproj",
+      "projectPath": "C:\\Users\\Irene\\OneDrive\\Рабочий стол\\snake\\Snake\\snake1\\Snake.csproj",
       "packagesPath": "C:\\Users\\Irene\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Irene\\OneDrive\\Рабочий стол\\snake\\Snake\\obj\\",
+      "outputPath": "C:\\Users\\Irene\\OneDrive\\Рабочий стол\\snake\\Snake\\snake1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

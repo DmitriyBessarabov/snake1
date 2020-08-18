@@ -1,6 +1,7 @@
 ﻿using System;
-
-using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Text;
 
 namespace Snake
 {
@@ -8,18 +9,32 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            point p1 = new point();
-            p1.x = 1;
-            p1.y = 3;
-            p1.symb = '*';
+            point p1 = new point(1, 3, '*');
+
             p1.Draw();
 
-            point p2 = new point();
-            p2.x = 4;
-            p2.y = 5;
-            p2.symb = '#';
+            point p2 = new point(4, 5, '#');
+
             p2.Draw();
 
+            List<int> numList = new List<int>();
+            numList.Add(0);
+            numList.Add(1);
+            numList.Add(2);
+
+            int x = numList[0];
+            int y = numList[1];
+            int z = numList[2];
+
+            foreach (int i in numList)
+            {
+                Console.WriteLine(i);
+            }
+            numList.RemoveAt(0);
+
+            List<Point> pList = new List<Point>();
+            //pList.Add(p1);
+            //pList.Add(p2);
 
             Console.ReadLine();
         }
