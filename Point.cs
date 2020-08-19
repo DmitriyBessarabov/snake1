@@ -6,17 +6,17 @@ using System.Drawing;
 
 namespace Snake
 {
-    class point
+    class Point
     {
         public int x;
         public int y;
         public char symb;
 
-        public point()
+        public Point()
         {
 
         }
-        public point(int _x, int _y, char _symb)
+        public Point(int _x, int _y, char _symb)
         {
             x = _x;
             y = _y;
